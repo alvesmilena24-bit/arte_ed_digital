@@ -1,13 +1,28 @@
+:root {
+    --cor-fundo: #f4f1ea;
+    --cor-texto: #222222;
+    --cor-principal: #6b2d5c;
+    --cor-secundaria: #9b4d83;
+    --cor-hover: #c77dff;
+    --cor-superficie: #white;
+    --cor-card: #f3d9fa;
+    --cor-legenda: #555555;
+    --cor-clara: #f3d9fa;
+    --cor-rodape: #222222;
+
+}
+
 body {
-    background-color: #f4f1ea;
-    color: #222222;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
     font-family: Arial, sans-serif;
     margin: 0;
+
 }
 
 header {
-    background-color: #6b2d5c;
-    color: white;
+    background-color: var(--cor-fundo);
+    color: var(--cor-clara);
     text-align: center;
     padding: 30px;
 }
@@ -17,7 +32,7 @@ h1 {
 }
 
 h2 {
-    color: #6b2d5c;
+    color: var(--cor-principal);
 }
 
 p {
@@ -30,9 +45,9 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: var(--cor-clara);
     text-decoration: none;
-    background-color: #9b4d83;
+    background-color: var(--cor-secundaria);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -40,7 +55,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #c77dff;
+    background-color: var(--cor-hover);
 }
 
 main {
@@ -49,7 +64,8 @@ main {
 }
 
 section {
-    background-color: white;
+    background-color: var(--cor-superficie);
+    background-color: #c77dff;
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
@@ -65,16 +81,20 @@ img {
 
 figcaption {
     text-align: center;
+}
+
+p {
+    font-size: 18px;
     font-size: 14px;
     color: #555555;
     margin-top: 8px;
 }
 
 .card {
-    background-color: #f3d9fa;
+    background-color: var(--cor-card);
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid #6b2d5c;
+    border-left: 6px solid var(--cor-principal);
     border-radius: 10px;
 }
 
@@ -83,8 +103,8 @@ figcaption {
 }
 
 footer {
-    background-color: #222222;
-    color: white;
+    background-color: var(--cor-rodape);
+    color: var(--cor-clara);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
