@@ -76,7 +76,7 @@ main {
 
 section {
     background-color: var(--cor-superficie);
-    background-color: #c77dff;
+    background-color: var(--cor-fundo);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
