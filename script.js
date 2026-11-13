@@ -1,5 +1,4 @@
-const 
-botoesCurtir = document.querySelectorAll (".curtir"); 
+const botoesCurtir = document.querySelectorAll (".curtir"); 
 botoesCurtir.forEach(function(botaoCurtir){ 
     let curtiu = false;  
     botaoCurtir.addEventListener("click", curtir); 
@@ -18,7 +17,7 @@ botoesCurtir.forEach(function(botaoCurtir){
         });
 
          const btnTema = documento.querySelector(".btn-tema");
-          btnTema.addEventListener("click",mudarTema);
+          btnTema.addEventListener("click", mudarTema ) ;
            function mudarTema(){ 
             document.body.classList.toggle("tema-escuro"); 
           }
